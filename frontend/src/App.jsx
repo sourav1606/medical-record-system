@@ -5,7 +5,7 @@ import { Users, Shield, Activity, Plus, Trash2, Search, X } from 'lucide-react'
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts'
 import './App.css'
 
-const API = 'http://localhost:5000/api/patients'
+const API = 'https://medical-record-backend-21h6.onrender.com'
 const COLORS = ['#e94560', '#2ecc71', '#3498db', '#f39c12', '#9b59b6']
 
 function App() {
